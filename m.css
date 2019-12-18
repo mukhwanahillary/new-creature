@@ -1,0 +1,19 @@
+.down{
+    position: relative;
+    display: inline-block;
+}
+.btn{
+    color: blue;
+    padding: 6px;
+
+}
+.content{
+    position: absolute;
+    display: none;
+    box-shadow: blue;
+    z-index: 1;
+    min-width: 160px;
+}
+.down:hover .content{
+    display: block;
+}

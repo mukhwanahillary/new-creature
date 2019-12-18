@@ -1,0 +1,13 @@
+body{
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 20px;
+}
+h1, a{
+    text-decoration: none;
+    color: rgb(73, 82, 88);
+}
+.dis{
+    text-align: center;
+}

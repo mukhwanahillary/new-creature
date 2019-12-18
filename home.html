@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="csa.css">
+</head>
+
+<body>
+    <div class="dis">
+        <h1 style="text-align: center;">Click here for more information about our portifolio page</h1>
+        <button><strong><a href="portifolio.html" id="dis" onmouseover="change()" onmouseout="back()">welcome
+                    page</a></strong></button>
+    </div>
+    <script>
+
+        function change() {
+            document.querySelector('#dis').textContent = 'portifolio.html';
+        }
+        function back() {
+            document.querySelector('#dis').textContent = 'welcome page';
+        }
+
+    </script>
+</body>
+
+</html>

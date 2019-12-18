@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.header{
+    float: right;
+
+}
+.header a,button{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.header button{
+    background-color: blue;
+    padding: 7px;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 10px;
+}
+img{
+    width:30%;
+    margin-top: 100px;
+    align-items: center;
+}
+.searchbox{
+    border: 0px;
+    border-radius: 20px;
+    margin-right: 200px;
+    text-align: center;
+    padding-right: 100px;
+    padding: 10px;
+    
+}
+.btn{
+    text-align: center;
+    margin-right: 200px;
+
+}
+.btn, a{ 
+    text-decoration: none;
+
+}
+ul{ 
+    list-style-type: none;
+    color: black;
+
+}
+nav, li{
+    float: left;
+     
+
+}
+.right{
+    float: right;
+}
+li, a{ 
+    color: #000;
+    padding: 4px
+}
+footer{
+     background-color:rgb(214, 219, 224);
+     padding-bottom: 80px;
+     margin-top: 170px;
+    
+    
+}
+input{
+    border-radius: 20px;
+    width: 47%;
+    height: 1.1cm;
+}
+.langs{
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 200px;
+    font-size: 14px;
+    
+}
+.langs a{
+    color: blue;
+}
